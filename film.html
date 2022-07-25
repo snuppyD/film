@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Online-movie</title>
+    <link href="style-film.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="top-bar">
+    <nav class="top-menu">
+        <a href="index.html">Example</a>
+        <ul class="menu-main">
+          <li><a href="index.html" class="current">Головна</a></li>
+          <li><a href="film.html">Фільми</a></li>
+          <li><a href="serial.html">Серіали</a></li>
+          <li><a href="top-film.html">Рейтинг фільмів</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="basik">
+      <div class='left-bar'>
+        <div class='left-bar' id='bar1'>
+        <div class='bar1'>Пошук</div>
+        <label for="site-search">
+        <input type="search" id="site-search" name="q" placeholder="Що саме шукаєш?">
+        <button>Search</button></label>
+    </div>
+    <div class='left-bar' id='bar2'>
+    <div class='bar2'>Вхід</div>
+    <div>
+        <input type="text" id="username" name="username" placeholder="Логін">
+    </div>
+    <div>
+        <input type="password" id="pass" name="password"
+        minlength="8" placeholder="Пароль" required>
+    </div>
+    <div>
+        <input type="submit"  value="Вхід">
+    </div>
+    </div>
+
+    <div class='left-bar' id='bar3'>
+    <div class='bar3'>Новини</div>
+    <ol>
+        <li>23.06.2022</li>
+        <li>Я знайшов як додати автоматичне поєднання дати на сайті</li>
+    </ol>
+    </div>
+    <div class='left-bar' id='bar3'>
+        <div class='bar3'>Рейтинг</div>
+        <table class="table">
+            <tr>
+                <td><a href='detail.html' class="none">Інтерстеллер</a></td>
+                <td class="td">8.9</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Матриця</a></td>
+                <td>7.6</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Хтось помер</a></td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Комедія</a></td>
+                <td>8.5</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Список фільмів</h1>
+    <div class="film1">
+        <p><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/92/%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/800px-%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg" width="100" height="130" class="fig1">После грандиозной битвы, в которой Мстители и их союзники смогли одержать верх над Таносом, асгардский бог грома Тор решил, что для него настало время изменить свою жизнь. После гибели Локи и поражения от Таноса Тор не считал, что может нести ответственность за спасенных им асгардцев. Он спокойно передал бразды правления Новым Асгардом Валькирии, а сам присоединился к Стражам Галактики, решив отправиться в путешествие по просторам космоса.</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Деталі</button>
+    </div>
+    <div class="film2">
+        <p><img src="https://upload.wikimedia.org/wikipedia/ru/6/61/Insidious_2011.jpg" width="100" height="130" class="fig2">Ужасного вида старуха со свечой, чей силуэт чудится семье Джоша и Клэр и их троим детям, – неужели это она передвигает тайком предметы, ворует редкие книги, а в заключении делает так, что старший сын, Далтон – падает с лестницы и впадает в кому? Или это какое-то мистическое воздействие извне?</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Деталі</button>
+    </div>
+    <div class="film3">
+        <p><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg/211px-%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg" width="100" height="130" class="fig3">Биографическая кинолента Мартина Скорсезэ повествует о жизненном пути талантливого и успешного брокера и не менее хитроумного мошенника Джордана Белфорта в блестящем исполнении Леонардо ДиКаприо.
+            В конце восьмидесятых он открывает брокерскую фирму и прежде чем отметил тридцатый день рождения, заработал на ней многомиллионный доход.</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Деталі</button>
+    </div>
+    <div class="film4">
+        <p><img src="https://upload.wikimedia.org/wikipedia/uk/thumb/4/45/%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg/220px-%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg" width="100" height="130" class="fig4">Перша частина екранізації сьомої, найпохмурішої та заключної, книги англійської письменниці Джоан Ролінг про пригоди юного чаклуна Гаррі Поттера та його друзів. 
+
+            За сюжетом, Воланн-де-Морт та його приспішники полють за хлопчиком зі шрамом та його друзів, а до того ж виношує плани захоплення Міністерства магії. Стратегічна операція Ордена Фенікса ледь не зривається через доноси невстановленого зрадника.</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Деталі</button>
+    </div>
+    </div>
+    </div>
+<div class="end">
+    <footer>
+        <p class="fot">designed by Vadik</p>
+    </footer>
+</div>
+</body>
+</html>
+
+

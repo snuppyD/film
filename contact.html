@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Online-movie</title>
+    <link href="style-contact.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="top-bar">
+    <nav class="top-menu">
+        <a href="index.html">Example</a>
+        <ul class="menu-main">
+          <li><a href="index.html" class="current">Головна</a></li>
+          <li><a href="film.html">Фільми</a></li>
+          <li><a href="serial.html">Серіали</a></li>
+          <li><a href="top-film.html">Рейтинг фільмів</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="basik">
+      <div class='left-bar'>
+        <div class='left-bar' id='bar1'>
+        <div class='bar1'>Пошук</div>
+        <label for="site-search">
+        <input type="search" id="site-search" name="q" placeholder="Що саме шукаєш?">
+        <button>Search</button></label>
+    </div>
+    <div class='left-bar' id='bar2'>
+    <div class='bar2'>Вхід</div>
+    <div>
+        <input type="text" id="username" name="username" placeholder="Логін">
+    </div>
+    <div>
+        <input type="password" id="pass" name="password"
+        minlength="8" placeholder="Пароль" required>
+    </div>
+    <div>
+        <input type="submit"  value="Вхід">
+    </div>
+    </div>
+
+    <div class='left-bar' id='bar3'>
+    <div class='bar3'>Новини</div>
+    <ol>
+        <li>23.06.2022</li>
+        <li>Я знайшов як додати автоматичне поєднання дати на сайті</li>
+    </ol>
+    </div>
+    <div class='left-bar' id='bar3'>
+        <div class='bar3'>Рейтинг</div>
+        <table class="table">
+            <tr>
+                <td><a href='detail.html' class="none">Інтерстеллер</a></td>
+                <td class="td">8.9</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Матриця</a></td>
+                <td>7.6</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Хтось помер</a></td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Комедія</a></td>
+                <td>8.5</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Контакти для зв'язку</h1>
+        <div class="group">
+            <label id="name-label" for="name"></label>
+            <input type="text" name="name" id="name" class="control" placeholder="Ваше ім'я" required>
+        </div>
+        <div class="general-form">
+            <label id="email-label" for="email"></label>
+            <input type="email" name="email" id="email" class="control" placeholder="Ваша пошта" required>
+        </div>
+        <div class="general-form">
+            <textarea id="comment" class="input-area" name="comment" placeholder="Ваші побажання..."></textarea>
+        </div>
+        <button class='but'>Відправити</button>
+    </div>
+</div>
+<div class="end">
+    <footer>
+        <p class="fot">designed by Vadik</p>
+    </footer>
+</div>
+</body>
+</html>
+
+

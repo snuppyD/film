@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Online-movie</title>
+    <link href="style-top.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="top-bar">
+    <nav class="top-menu">
+        <a href="index.html">Example</a>
+        <ul class="menu-main">
+          <li><a href="index.html" class="current">Головна</a></li>
+          <li><a href="film.html">Фільми</a></li>
+          <li><a href="serial.html">Серіали</a></li>
+          <li><a href="top-film.html">Рейтинг фільмів</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="basik">
+      <div class='left-bar'>
+        <div class='left-bar' id='bar1'>
+        <div class='bar1'>Пошук</div>
+        <label for="site-search">
+        <input type="search" id="site-search" name="q" placeholder="Що саме шукаєш?">
+        <button>Search</button></label>
+    </div>
+    <div class='left-bar' id='bar2'>
+    <div class='bar2'>Вхід</div>
+    <div>
+        <input type="text" id="username" name="username" placeholder="Логін">
+    </div>
+    <div>
+        <input type="password" id="pass" name="password"
+        minlength="8" placeholder="Пароль" required>
+    </div>
+    <div>
+        <input type="submit"  value="Вхід">
+    </div>
+    </div>
+
+    <div class='left-bar' id='bar3'>
+    <div class='bar3'>Новини</div>
+    <ol>
+        <li>23.06.2022</li>
+        <li>Я знайшов як додати автоматичне поєднання дати на сайті</li>
+    </ol>
+    </div>
+    <div class='left-bar' id='bar3'>
+        <div class='bar3'>Рейтинг</div>
+        <table class="table">
+            <tr>
+                <td><a href='detail.html' class="none">Інтерстеллер</a></td>
+                <td class="td">8.9</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Матриця</a></td>
+                <td>7.6</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Хтось помер</a></td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Комедія</a></td>
+                <td>8.5</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Рейтинг фільмів</h1>
+        <table class="table">
+            <tr>
+                <th>Фільм</th>
+                <th>Рік</th>
+                <th>Рейтинг</th>
+            </tr>
+                <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/92/%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/800px-%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg" width="100" height="130">Інтерстеллер</td>
+                    <td>2014</td>
+                    <td class="td">8.9</td>
+                </tr>
+                <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/ru/6/61/Insidious_2011.jpg" width="100" height="130">Матриця</td>
+                    <td>1990</td>
+                    <td>7.6</td>
+                </tr>
+                <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg/211px-%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg" width="100" height="130">Вовк з Уолл Стріт</td>
+                    <td>2016</td>
+                    <td>6.0</td>
+                </tr>
+                <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/uk/thumb/4/45/%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg/220px-%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg" width="100" height="130">Гарі Поттер та смертельні реліквії</td>
+                    <td>2022</td>
+                    <td>8.5</td>
+                </tr>
+            </table>
+    </div>
+</div>
+<div class="end">
+    <footer>
+        <p class="fot">designed by Vadik</p>
+    </footer>
+</div>
+</body>
+</html>
+
+

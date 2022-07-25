@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Online-movie</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="top-bar">
+    <nav class="top-menu">
+        <a href="index.html">Example</a>
+        <ul class="menu-main">
+          <li><a href="index.html" class="current">Головна</a></li>
+          <li><a href="film.html">Фільми</a></li>
+          <li><a href="serial.html">Серіали</a></li>
+          <li><a href="top-film.html">Рейтинг фільмів</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="basik">
+      <div class='left-bar'>
+        <div class='left-bar' id='bar1'>
+        <div class='bar1'>Пошук</div>
+        <label for="site-search">
+        <input type="search" id="site-search" name="q" placeholder="Що саме шукаєш?">
+        <button>Search</button></label>
+    </div>
+    <div class='left-bar' id='bar2'>
+    <div class='bar2'>Вхід</div>
+    <div>
+        <input type="text" id="username" name="username" placeholder="Логін">
+    </div>
+    <div>
+        <input type="password" id="pass" name="password"
+        minlength="8" placeholder="Пароль" required>
+    </div>
+    <div>
+        <input type="submit"  value="Вхід">
+    </div>
+    </div>
+
+    <div class='left-bar' id='bar3'>
+    <div class='bar3'>Новини</div>
+    <ol>
+        <li>23.06.2022</li>
+        <li>Я знайшов як додати автоматичне поєднання дати на сайті</li>
+    </ol>
+    </div>
+    <div class='left-bar' id='bar3'>
+        <div class='bar3'>Рейтинг</div>
+        <table class="table">
+            <tr>
+                <td><a href='detail.html' class="none">Інтерстеллер</a></td>
+                <td class="td">8.9</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Матриця</a></td>
+                <td>7.6</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Хтось помер</a></td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td><a href='detail.html' class="none">Комедія</a></td>
+                <td>8.5</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Супер Фільми</h1>
+    <div class="basik-film">
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/92/%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg/800px-%D0%A2%D0%BE%D1%80_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C_%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/ru/6/61/Insidious_2011.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/72/%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg/211px-%D0%9F%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0_%C2%AB%D0%92%D0%BE%D0%BB%D0%BA_%D1%81_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D0%B8%D1%82%C2%BB.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/uk/thumb/4/45/%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg/220px-%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80_%D1%82%D0%B0_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D0%A0%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%97_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%83%D0%BA%D1%80.jpg" width="250" height="350"></button>
+        <div class="name">
+        <p class="teg1">Тор 4</p>
+        <p class="teg2">Астрал</p>
+        <p class="teg3">Вовк з Уолл Стріт</p>
+        <p class="teg4">Гаррі Поттер</p>
+    </div>
+    <div class="right2">
+        <h2>Супер Серіали</h2>
+    </div>
+    <div class="basik-film2">
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/ru/2/20/DarkNetflixPoster.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/uk/3/33/%D0%9B%D1%8E%D0%BF%D0%B5%D0%BD_%28%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB%2C_2021%29.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/uk/5/5e/Witcher_Serial.jpg" width="250" height="350"></button>
+        <button  onclick="window.location.href = 'detail.html';"class="no"><img src="https://upload.wikimedia.org/wikipedia/ru/f/f7/Reacher_TV.jpg" width="250" height="350"></button>
+        <div class="name2">
+        <p class="teg12">Пітьма</p>
+        <p class="teg22">Люпен</p>
+        <p class="teg32">Відьмак</p>
+        <p class="teg42">Річер</p>
+    </div>
+    </div>
+    </div>
+    <div class="text1">
+        <a href='literature.html' class="link">Як знімали Тор 4?</a>
+    </div>
+    <div class="text2">
+        <p class="detail"> Американський супергеройський фільм, заснований на коміксах видавництва Marvel Comics про Тора, спродюсований Marvel Studios з Walt Disney Studios Motion Pictures у ролі дистриб'ютора. Пряме продовження фільму «Тор: Раґнарок» (2017) та двадцять дев'ята стрічка в рамках Кіновсесвіту Marvel (КВM) (КВМ). Режисером виступив Тайка Вайтіті, який також написав сценарій разом із Дженніфер Кейтін Робінсон</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Читати</button>
+    </div>
+    <div class="text">
+        <a href='literature.html' class="link">Як Тор став богом грома?</a>
+    </div>
+    <div class="text3">
+        <p class="detail"> Рудоволосий та рудобородий бог грому та блискавки в германській та скандинавській міфології, син Одіна та (тричінародженої) Богині Землі Йорд. В той час як Одін був богом аристократії, Тор є головним чином богом простих людей та часто бере сторону смертних супроти інших богів. Тор є героєм людського роду, захищаючи його від ворогів, хоча він й програв змагання в силі старій жінці Еллі («похилий вік»)</p>
+        <button onclick="window.location.href = 'literature.html';"class="btn">Читати</button>
+    </div>
+    </div>
+</div>
+<div class="end">
+    <footer>
+        <p class="fot">designed by Vadik</p>
+    </footer>
+</div>
+</body>
+</html>
+
+
